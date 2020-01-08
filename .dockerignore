@@ -1,0 +1,8 @@
+.git
+.cache
+*.png
+*.jpg
+*.jpeg
+__pycache__
+copy.py
+copy_all.py
