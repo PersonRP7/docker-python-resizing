@@ -3,23 +3,33 @@ Dockerized python resizing script.
 Usage:
     1. Clone the project.
 
-    2. ```docker-compose up -d```
+    2. ```python
+    docker-compose up -d
+    ```
 
     3. Place the images to be resized in the root of the cloned project.
 
     4. Copy the image(s) into the container:
 
         4.a) For a single image:
-            ```python copy.py -d to -n image.jpg```
+            ```python
+            python copy.py -d to -n image.jpg
+            ```
 
         4.b) For multiple images:
-            ```python copy_all.py -d to```
+            ```python
+            python copy_all.py -d to
+            ```
 
     5. Enter the docker container using:
-        ```docker exec -it thumbnail sh```
+        ```python
+        docker exec -it thumbnail sh
+        ```
 
     6. Engage the interactive resizing script using:
-        ```python thumbnail.py```
+        ```python
+        python thumbnail.py
+        ```
 
     The script requires three values:
 
@@ -38,11 +48,15 @@ Usage:
 
         8.a) For a single image:
 
-            ```python copy.py -d from -n image_resized.jpeg```
+            ```python
+            python copy.py -d from -n image_resized.jpeg
+            ```
 
         8.b) For multiple images:
 
-            ```python copy_all.py -d from```
+            ```python
+            python copy_all.py -d from
+            ```
 
         
 
