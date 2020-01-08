@@ -1,4 +1,4 @@
-# Dockerized python resizing script.
+# Dockerized python resizing script
 
 ## Usage:
 
