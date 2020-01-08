@@ -39,9 +39,9 @@ The script requires three values:
     3. Width
 
 Press enter to input default values:
-    1. 100
-    2. 100
-    3. 100
+1. 100
+2. 100
+3. 100
 
 7. Exit the docker container (Ctrl + D).
 
