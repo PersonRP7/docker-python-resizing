@@ -1,6 +1,7 @@
-Dockerized python resizing script.
+#Dockerized python resizing script.
 
-Usage:
+##Usage:
+
     1. Clone the project.
 
     2. ```python
