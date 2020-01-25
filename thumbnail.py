@@ -38,7 +38,7 @@ def resize():
         new_img = img.resize((height, width), Image.ANTIALIAS)
         new_image_re_1 = path[2:].split(".")[0]
         image_extension = path[2:].split(".")[1]
-        new_image_re_2 = f"{new_image_re_1}_{height}_{width}.{image_extension}."
+        new_image_re_2 = f"{new_image_re_1}_{height}_{width}.{image_extension}"
         new_img.save(new_image_re_2, image_extension, quality = quality_val)
         return True
     except FileNotFoundError:
